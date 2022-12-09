@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Радионова, день 9-10</title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+        <header>
+            <div class="logo"> </div>
+            <nav>
+                <ul>
+                    <li>Масло</li>
+                    <li>О нас</li>
+                    <li>Отзывы</li>
+                    <li>Оплата и доставка</li>
+                    <li>Контакты</li>
+                </ul>
+                <div class="basket"></div>
+            </nav>
+        </header>
+        
+        <div class="offer">
+            <div class="big-bottle"></div>
+            <div class="products">
+                <h3>Наши продукты</h3>
+                <div class="buttons">
+                    <button class="product-btn pruduct-btn-active">Для салата</button>
+                    <button class="product-btn product-btn-disable">Итальянское</button>
+                    <button class="product-btn product-btn-disable">Итальянское</button>
+                    <button class="product-btn product-btn-disable">Восточное</button>
+                </div>
+                <h2>Масло "Для салата"</h2>
+                <p class="des">Название говорит само за себя. Это идеальная
+                    заправка,
+                    которая даже скучной и привычной капусте придаст
+                    неповторимый вкус и аромат.
+                </p>
+                <div class="controls">
+                    <div class="count">
+                        <div class="control">
+                            <p>-</p>
+                        </div>
+                        <p class="counter">2</p>
+                        <div class="control">
+                            <p>+</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttons-head">
+                    <div class="bag-button">
+                        <p>ПОДРОБНЕЕ</p>
+                    </div>
+                    <div class="order-button">
+                        <p>В КОРЗИНУ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="oil">
+            <h2>Масло</h2>
+            <div class="oil-list">
+                <div class="oil-item">
+                    <div class="image1"></div>
+                    <h3 id="green-text">Масло “Для салата”</h3>
+                    <p class="description">Название говорит само за себя. Это
+                        идеальная заправка, которая даже скучной и
+                        привычной капусте
+                        придаст неповторимый вкус и аромат. </p>
+                    <p class="contains">
+                        Состав: оливковое масло холодного отжима, розмарин,
+                        тимьян, базилик, орегано, чеснок, смесь из 5
+                        перцев.
+                    </p>
+                    <div class="controls">
+                        <div class="count">
+                            <div class="control">
+                                <p>-</p>
+                            </div>
+                            <p class="counter">2</p>
+                            <div class="control">
+                                <p>+</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p class="mass">250 мл</p>
+                            <div class="price-grn">
+                                <p><span class="bold-price">115</span> <span
+                                        class="val">Грн</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="bag-button">
+                            <p>В КОРЗИНУ</p>
+                        </div>
+                        <div class="order-button-green order-button">
+                            <p>ЗАКАЗАТЬ В ТГ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="oil-item">
+                    <div class="image2"></div>
+                    <h3 id="blue-text">Масло “Итальянское”</h3>
+                    <p class="description">Добавит ноток Италии в любое ваше
+                        блюдо. Паста, ризотто, пицца, салаты - его везде можно
+                        использовать.
+                    </p>
+                    <p class="contains">
+                        Состав: оливковое масло холодного отжима, чеснок,
+                        вяленые томаты, базилик, орегано, майоран, смесь перцев.
+                    </p>
+                    <div class="controls">
+                        <div class="count">
+                            <div class="control">
+                                <p>-</p>
+                            </div>
+                            <p class="counter" id="blue-text">2</p>
+                            <div class="control">
+                                <p>+</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p class="mass" id="blue-text">250 мл</p>
+                            <div class="price-grn">
+                                <p><span id="blue-text" class="bold-price">115</span>
+                                    <span
+                                        class="val" id="blue-text">Грн</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="order-button order-button-blue">
+                            <p>В КОРЗИНУ</p>
+                        </div>
+                        <div class="order-button order-button-blue ">
+                            <p>ЗАКАЗАТЬ В ТГ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="oil-item">
+                    <div class="image3"></div>
+                    <h3 id="red-text">Масло “Для мяса”</h3>
+                    <p class="description">Идеальное решение для легкого и
+                        быстрого маринада мяса, можно добавить капельку масла и
+                        после приготовления. </p>
+                    <p class="contains">
+                        Состав: оливковое масло холодного отжима, чеснок,
+                        паприку, кориандр, смесь перцев, розмарин, тимьян, перец
+                        чили.
+
+                    </p>
+                    <div class="controls">
+                        <div class="count">
+                            <div class="control">
+                                <p>-</p>
+                            </div>
+                            <p class="counter" id="red-text">2</p>
+                            <div class="control">
+                                <p>+</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p id="red-text" class="mass">250 мл</p>
+                            <div class="price-grn">
+                                <p><span id="red-text" class="bold-price">115</span>
+                                    <span
+                                        class="val" id="red-text">Грн</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="order-button order-button-red">
+                            <p>В КОРЗИНУ</p>
+                        </div>
+                        <div class="order-button order-button-red ">
+                            <p>ЗАКАЗАТЬ В ТГ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="oil-item">
+                    <div class="image4"></div>
+                    <h3 id="orange-text">Масло “Восточное”</h3>
+                    <p class="description">Oтлично подойдёт для блюд
+                        среднеазиатской кухни: шурпа, плов, лагман с этим маслом
+                        приобретут традиционные нотки Средней Азии.</p>
+                    <p class="contains">
+                        Состав: оливковое масло холодного отжима, перец чили,
+                        зира, куркума, чеснок, смесь перцев.
+                    </p>
+                    <div class="controls">
+                        <div class="count">
+                            <div class="control">
+                                <p class="orange-text">-</p>
+                            </div>
+                            <p class="counter" id="orange-text">2</p>
+                            <div class="control">
+                                <p>+</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p id="orange-text" class="mass">250 мл</p>
+                            <div class="price-grn">
+                                <p><span id="orange-text" class="bold-price">115</span>
+                                    <span
+                                        class="val" id="orange-text">Грн</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="order-button order-button-orange">
+                            <p>В КОРЗИНУ</p>
+                        </div>
+                        <div class="order-button order-button-orange">
+                            <p>ЗАКАЗАТЬ В ТГ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about">
+            <div class="wrapper">
+            <div class="abouth">
+                <h3>О нас</h3>
+            </div>
+            <div class="container">
+                <div class="first">
+                    <div class="green-block"> </div>
+                    <div class="left-image"></div>
+                    <div class="text">
+                        <h3>Кто мы</h3>
+                        <p>Мы пара: Таня и Рома и мы создатели
+                            пряного
+                            оливкового масла R.olio.<br>
+                            Предыстория:<br>
+                            Так сложилось в нашей паре, что готовит у нас Рома,
+                            он очень увлечен кулинарией и каждый раз придумывает
+                            что-то новенькое.<br>
+                            Накануне прошлого Нового года, мы готовили подарки
+                            нашим друзьям и родственникам. Нам захотелось к
+                            подаркам добавить что-то необычное, от себя.<br>
+                            И к нам пришла идея, Рома готовил вкуснейшее пряное
+                            оливковое масло для своих рецептов, добавлял
+                            розмарин, тимьян, чеснок, разные виды
+                            перцев...каждый раз получался новый неповторимый
+                            вкус.
+                        </p>
+                    </div>
+                </div>
+                <div class="first sec">
+                    <div class="text-2">
+                        <h3>Что мы делаем</h3>
+                        <p>И мы решили сделать такое
+                            масло,
+                            как добавление к подарку. Надо сказать, что наши
+                            близкие оценили презент и просили снова и снова
+                            сделать им такое масло.<br>
+                            И появилась идея: почему бы не попробовать запустить
+                            такое масло в продажу?
+                            Рома долго выверял рецепты, я разрабатывала дизайн
+                            этикеток и искала поставщиков.<br>
+                            И вот мы готовы представить его вам!<br>
+                            Мы старались сделать наше масло максимально
+                            доступным, при этом не потеряв в качестве. Стоимость
+                            <br>бутылки(250мл) - всего 115грн.
+                        </p>
+                    </div>
+                    <div class="right-image"></div>
+                    <div class="green-block-2"></div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        <div class="reviews">
+            <div class="RV">
+                <h3>Отзывы</h3>
+            </div>
+            <div class="list">
+                <div class="left-arrow"></div>
+                <div class="doc1"></div>
+                <div class="doc2"></div>
+                <div class="doc3"></div>
+                <div class="right-arrow"></div>
+            </div>
+            <div class="circles">
+                <div class="notactive"></div>
+                <div class="yesactive"></div>
+                <div class="notactive"></div>
+            </div>
+        </div>
+        </div>
+
+        <div class="menu">
+            <div class="left-block">
+                <div class="greenbox greenbox-l">
+                    <div class="items">
+                        <div class="item">
+                            <div class="img1"></div>
+                            <p>Новая почта</p>
+                        </div>
+                        <div class="item">
+                            <div class="img2"></div>
+                            <p>Укрпочта</p>
+                        </div>
+                        <div class="item">
+                            <div class="img3"></div>
+                            <p>Самовывоз</p>
+                        </div>
+                    </div>
+                </div>
+                <h3>- Доставка</h3>
+            </div>
+            <div class="right-block">
+                <h3>Оплата -</h3>
+                <div class="greenbox greenbox-r">
+                     
+                    <div class="items">
+                        <div class="item">
+                            <div class="img4"></div>
+                            <p>Наложенный платёж</p>
+                        </div>
+                        <div class="item">
+                            <div class="img5"></div>
+                            <p>Приват24</p>
+                        </div>
+                        <div class="item">
+                            <div class="img6"></div>
+                            <p>Наличными при самовывозе</p>
+                        </div>
+                    </div>
+                   
+                    </div> 
+                </div>
+                
+            </div>
+
+        <div class="wrapper">
+        <div class="contacts">
+            <h2>Контакты</h2>
+            <div class="cont">
+                <div class="green"></div>
+                <div class="image">
+
+                </div>
+                <div class="info">
+                    <div class="info-el">
+                        <div class="icon1">
+
+                        </div>
+                        <p>+38 (066) 11-43-558</p>
+                    </div>
+                    <div class="info-el">
+                        <div class="icon2">
+
+                        </div>
+                        <p>https://www.facebook.com/r.olio8/</p>
+                    </div>
+                    <div class="info-el">
+                        <div class="icon3">
+
+                        </div>
+                        <p>https://www.instagram.com/r.olio_/</p>
+                    </div>
+                    <div class="info-el">
+                        <div class="icon4">
+
+                        </div>
+                        <p>https://t.me/r_olio</p>
+                    </div>
+                    <div class="info-el">
+                        <div class="icon5">
+
+                        </div>
+                        <p>+38 (066) 11-43-558</p>
+                    </div>
+                    <div class="order-button order-button-green i">
+                        <p>НАПИСАТЬ НАМ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <footer>
+            <div class="wrapper">
+            <div class="logo footlogo"></div>
+            <ul>
+                <li>Масло</li>
+                <li>О нас</li>
+                <li>Отзывы</li>
+                <li>Оплата и доставка</li>
+                <li>Контакты</li>
+            </ul>
+            <div class="images_soc"><img src="img/social(1).png" alt=""></div>
+        </div>
+        </footer>
+        
+    </body>
+</html>
